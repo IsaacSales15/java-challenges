@@ -4,8 +4,8 @@ public class Transform {
 
     int type, temp;
 
-    public Transform(int type, String temp){
-        this.temp = Integer.parseInt(temp);
+    public Transform(int type, int temp){
+        this.temp = temp;
         this.type = type;
     }
 
@@ -18,7 +18,7 @@ public class Transform {
                 System.out.println("The value is: " + (temp - 273));
                 break;
             default:
-                break;
+                throw new RuntimeException("Valor Inválido");
         }
     }
 }
