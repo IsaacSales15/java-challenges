@@ -1,4 +1,4 @@
-package idade_obi;// Questão OBI 2019 fase 1
+// Questão OBI 2019 fase 1
 
 import java.util.Scanner;
 
