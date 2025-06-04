@@ -5,11 +5,9 @@ import java.lang.Math;
 
 public class cubo {
 
-  public static void cubo(double n) {
+  public static void contCubo(double n) {
 
-    double dois = 2;
-
-    int f0 = (int) Math.pow((n - dois), 3.0);
+    int f0 = (int) Math.pow((n - 2), 3.0);
     System.out.println("Zero faces: " + f0);
     int f2 = (int) ((n - 2) * 12);
     System.out.println("Duas faces: " + f2);
@@ -26,7 +24,7 @@ public class cubo {
     var n = scanner.nextDouble();
 
     if (n >= 2 || n <= 100) {
-      cubo(n);
+      contCubo(n);
     }
 
     scanner.close();

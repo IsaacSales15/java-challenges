@@ -28,3 +28,15 @@ class zero {
 
   }
 }
+
+//OBI 2021 - Fase 1
+
+//Entrada
+//A primeira linha da entrada contém um inteiro N, 
+//a quantidade de números inteiros (incluindo os "zeros") que o seu chefe falou ao telefone. 
+//Cada uma das N linhas seguintes contém um número inteiro Xi.
+
+//Saída
+//Seu programa deve produzir uma única linha na saída, 
+//contendo um único inteiro, a soma correta dos números, 
+//levando em conta que o valor 0 significa erro, conforme descrito.
