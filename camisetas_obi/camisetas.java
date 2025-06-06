@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class camisetas {
 
-    public static void Calc(int num, int x, int y, int contX, int contY){
-        if (num >= (contX + contY)) {
-            if (x <= contX && y <= contY) {
+    public static void Calc(int n, int p, int m, int contP, int contM){
+        if (n >= (contP + contM)) {
+            if (p <= contP && m <= contM) {
                 System.out.println("S");
         } else {
             System.out.println("N");
