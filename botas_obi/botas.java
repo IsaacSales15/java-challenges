@@ -13,7 +13,8 @@ public class botas {
     List<String> briewes = new ArrayList<>();
 
     int n = scanner.nextInt();
-    int contL = 0;
+    int contD = 0;
+    int contE = 0;
     int contM = 0;
 
     if (n >= 2 && n <= Math.pow(10, 4) && n % 2 == 0) {
@@ -24,16 +25,21 @@ public class botas {
 
         if (values.contains(m)) {
           contM++;
-          if (briewes.contains(l)) {
-            contL++;
+          if (l.equalsIgnoreCase("d")) {
+            contD++;
+            System.out.println(contD);
+          }
+          if (l.equalsIgnoreCase("e")) {
+            contE++;
+            System.out.println(contE);
           }
         }
 
-        briewes.add(l);
         values.add(m);
 
-        System.out.println(contL);
-        System.out.println(contM);
+        if (contD == contE && contM % 2 == 0) {
+          System.out.println((contD + contE) / 4);
+        }
 
       }
 
